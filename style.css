@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #0056b3;
+}
+
+/* New style for both count and full cycle displays to be same size */
+.display-text {
+    font-size: 3em; /* Making both the same large size */
+    margin: 5px 0; /* Reduced margin between them */
+    font-weight: bold;
+}
+
+/* Specific style for the full cycle display */
+#fullCycleDisplay {
+    color: #28a745; /* Green color for 'ပုတီးပတ်ရေ' */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#incrementButton {
+    background-color: #28a745;
+    color: white;
+}
+
+#incrementButton:hover {
+    background-color: #218838;
+}
+
+#resetButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+#resetButton:hover {
+    background-color: #c82333;
+}
